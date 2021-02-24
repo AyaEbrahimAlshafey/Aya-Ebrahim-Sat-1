@@ -2,16 +2,16 @@
 
 /*
 7-     trace the code & discuss of each statement of value of x and y
-$x = 3 ; $y=$x++;
-$y+= ++$x;
+$x = 3 ; $y=$x++;         y=3 , x=4
+$y+= ++$x;                y=8 , x=5
  
 if ($y == 7) {
  	$x++;
  	echo $x ."<br>";
  }
 else if ($y == 8){
- 	$x--;
- 	echo $x ."<br>";
+ 	$x--;                  x=4
+ 	echo $x ."<br>";       4
 	}
 else if ($y == 9) {
 	$x+=2;
@@ -22,16 +22,6 @@ else {
 	echo $x ."<br>"; }
 
 */
-
-//Solution::
-
-x=3 , y=3+1 ..... y=4
-
-x=5 , y=5+4=9
-
-// هيدخل فى else if ($y == 8)
-
-x= 5+2=7
 
 
 ?>
